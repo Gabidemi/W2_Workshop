@@ -3,32 +3,38 @@ Names: Djeneba, Gbolahan, Richard
 
 
 # End User
-School administrators who need to manage student and course information.
+The end user is Lana, because she will be using the system to manage her dog-walking business.
 
 # Requirements
-- Add and update student information.
-- Track which courses students are taking.
-- Record student grades.
-- View teacher and course information.
+- Add and update customer information.
+- Keep records of the dogs she walks.
+- Schedule dog-walking appointments.
+- Check which dogs need to be walked each day.
+- Track payments from customers.
+- Keep emergency contact information for each dog.
 
 # Categories of Data
-# Students
-- Student ID
-- First Name
-- Last Name
+# Customers
+- Customer ID
+- Customer Name
+- Phone Number
 - Email
-- Age
-# Courses
-- Course ID
-- Course Name
-- Course Description
-# Grades
-- Student ID
-- Course ID
-- Grade
-# Teachers
-- Teacher ID
-- First Name
-- Last Name
-- Email
-- Course
+- Address
+# Dogs
+- Dog ID
+- Dog Name
+- Dog Breed
+- Dog Age
+- Customer ID
+# Appointments
+- Appointment ID
+- Dog ID
+- Date
+- Time
+- Status
+# Payments
+- Payment ID
+- Appointment ID
+- Amount
+- Date
+- Payment Method
