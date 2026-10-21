@@ -65,7 +65,7 @@ The end user is Lana, because she will be using the system to manage her dog-wal
 
 # c) Relationships:
 - **Customers → Dogs:** One-to-many.
-- **Customers → Appointments:** One-to-many.
+- **Dog → Appointments:** One-to-many.
 - **Appointments → Payments:** One-to-many.
 
 # Examples of Information That Must Be Reassembled:
