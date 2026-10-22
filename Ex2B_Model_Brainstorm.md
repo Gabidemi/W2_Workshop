@@ -75,3 +75,20 @@ The end user is Lana, because she will be using the system to manage her dog-wal
 - **Which dogs belong to a particular customer?** Requires Customers and Dogs.
 
 # d) No Many to many relationships 
+
+# Step 4: Comparing Our Diagrams
+
+## a) Similarities
+- All three diagrams show the same 4 tables: Customers, Dogs, Appointments, Payments.
+- Every table has the same columns, and the same primary keys (PK) and foreign keys (FK): customer_id in Dogs, dog_id in Appointments, appointment_id in Payments.
+- All three show the same relationships: Customers to Dogs to Appointments to Payments, each one-to-many. There are no many-to-many relationships, so no resolving table is needed.
+
+## b) Differences
+- Layout: Gbolahan's is one tall vertical chain. Djeneba's and Richard's are a 2x2 grid.
+- How relationships are drawn: Gbolahan used arrows with the text "1 to many". Djeneba used plain lines with the text "one to many". Richard used crow's foot symbols (bar = one, fork = many) with labels: owns, has, receives.
+- Style: different colors and fonts. Richard's also has a key at the bottom explaining PK and FK.
+
+## Pros and Cons
+- Vertical chain: Simple and follows the order of the data, but it is tall and narrow, so it is harder to read on one screen.
+- 2x2 grid with plain lines: Fits on one screen and is easy to read, but plain lines do not show which side is "one" and which is "many" without the text.
+- Crow's foot with labels: Standard ERD notation that shows one vs many exactly, but it takes more knowledge to read.
